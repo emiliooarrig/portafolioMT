@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title> Lista de tareas </title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="row">
+            <div class="col">
+                <h1> Panel de administracion de tareas.</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <div class="row">
+
+            <div class="col panel-control">
+                <img src="img/IMG_9029.JPG" alt="" class="img">
+                <div class="interior-panel">
+                    <h1> Hola, Emilio</h1>
+                    <p> Tienes <span id="numTareas"> 0 </span> tareas pendientes </p>
+                    <p id="fechaActual"></p>
+                    <button type="button" onclick="borrarTareas()" class="btn eliminar"> Eliminar lista </button>
+                </div>
+            </div>
+
+            <div class="col tablas">
+                <div class="interior-tablas">
+                    <form name="formularioTareas">
+                        <label for="tareas">Nombre de la tarea: </label>
+                        <input type="text" name="tareas" id="tareas"> 
+                        <button type="button" class="btn agregar" onclick="agregar()"> Agregar tarea </button>
+                    </form>
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="columnaChecks"> Checkbox </th>
+                            <th> Materia: </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tareasBody"></tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

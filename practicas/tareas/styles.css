@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+body{
+    background-color: #E5E5E5;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.col {
+    padding: 20px;
+}
+
+.panel-control {
+    background-color: #3a3f58;
+    color: white;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.interior-panel {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.interior-panel h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.interior-panel p {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.tablas {
+    background-color: white;
+    width: 65%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.interior-tablas {
+    margin-bottom: 20px;
+}
+
+.interior-tablas form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.interior-tablas input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn{
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.eliminar{background-color: red;}
+
+.agregar { background-color: #3a3f58;}
+
+.agregar:hover{background-color: #2a2d3f;}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    table-layout: fixed;
+}
+
+th , td{
+    word-wrap: break-word;
+}
+
+thead th {
+    background-color: #3a3f58;
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.columnaChecks{
+    width: 100px;
+}
+
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.fila1 {
+    background-color: #f9f9f9;
+}
+
+.fila2 {
+    background-color: #eaeaea;
+}
+
+.completada {
+    background-color: #d3ffd3;
+    text-decoration: line-through;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> Formulario </title>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <div>
+            <h1> Practica 5: Javascript 2</h1>
+            <p> Emilio Arriaga Guzmán </p>
+            <p> 21 de Septiembre del 2024  </p>
+        </div>
+
+        <h1 class="title"> Formulario de gustos personales </h1>
+
+        <form name="formularioDatos">
+            <div class="inside nombre">
+                <label for="nombre">Nombre: </label> <br>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+    
+            <div class="inside">
+                <label for="email">Email: </label> <br>
+                <input type="email" name="email" id="email">
+            </div>
+    
+            <div class="inside">
+                <label for="edad">Edad: </label> <br>
+                <input type="number" name="edad" id="edad">
+            </div>
+    
+            <div class="inside">
+                <label>Género: </label> <br>
+                <label for="Masculino">Masculino</label> 
+                <input type="radio" name="genero" id="Masculino" value="Masculino"> <br>
+                <label for="Femenino">Femenino</label>
+                <input type="radio" name="genero" id="Femenino" value="Femenino"> <br>
+                <label for="Otro">Otro</label>
+                <input type="radio" name="genero" id="Otro" value="Otro">
+            </div>
+    
+            <div class="inside">
+                <label for="dulces">Dulces favoritos:</label><br>
+                <input type="checkbox" name="dulces" id="kitkat" value="KitKat"> 
+                <label for="kitkat">Kit Kat</label>
+                <input type="checkbox" name="dulces" id="sourpatch" value="SourPatch"> 
+                <label for="sourpatch">Sour Patch</label>
+                <input type="checkbox" name="dulces" id="foot" value="Foot"> 
+                <label for="foot">Foot</label>
+                <input type="checkbox" name="dulces" id="nodulce" value="NoDulce"> 
+                <label for="nodulce">No tengo</label>
+            </div>
+    
+            <div class="inside">
+                <label for="fechaRegistro">Fecha de registro:</label>
+                <input type="datetime-local" name="fechaRegistro" id="fechaRegistro"> <br>
+            </div>
+    
+            <div class="inside">
+                <label for="colorFavorito">Color favorito:</label> <br>
+                <input type="color" name="colorFavorito" id="colorFavorito">
+            </div>
+    
+            <div class="inside">
+                <label for="consumo">Frecuencia de consumo de dulces por semana:</label> <br>
+                <input type="range" name="consumo" id="consumo" min="1" max="10">
+            </div>
+    
+            <button class="btn" type="button" onclick="validar()">Registrar</button>
+        </form>
+
+
+
+        <table>
+            <thead>
+                <tr class="titulos">
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Edad</th>
+                    <th>Género</th>
+                    <th>Dulce Favorito</th>
+                    <th>Fecha</th>
+                    <th>Color</th>
+                    <th>Consumo</th>
+                </tr>
+            </thead>
+
+            <tbody id="registros"></tbody>
+        </table>
+    
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

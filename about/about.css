@@ -1,0 +1,43 @@
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.interior{width: 80%; text-align: center;}
+
+.interior h1, p{
+    margin: 15px;
+}
+
+.interior p{
+    font-size: 20px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row{
+    height: 400px;
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+i{transition: .3s ease;}
+a{
+    color: #000;
+}
+.row i{
+font-size: 150px;
+}
+
+.linkedin:hover{color: #0E76A8; transition: .3s ease;}
+.github:hover{color: #333; transition: .3s ease;}
+.instagram:hover{color: #E1306C; transition: .3s ease;}
+
+.negritas{font-weight: 600;}

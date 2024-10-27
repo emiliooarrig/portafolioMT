@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+table{
+    border: solid 2px #000;
+    text-align: center;
+}
+
+.title {
+    font-weight: 800;
+    background-color: rgb(215, 188, 200, 0.8);
+    border-top: solid 2px #000;
+}
+
+table, tr, td{
+    padding: 15px;
+    border-left: solid 2px #000;
+}
+
+.contenedor{
+    display: grid;
+    align-items: center;
+    padding: 5px;
+}
+
+.renglon1{
+    background-color: rgb(152, 182, 177, 0.3);
+}
+
+.ultimo{
+    border-bottom: 2px solid #000;
+}
+

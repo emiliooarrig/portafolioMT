@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(27, 73, 101,1 );
+    background-color: rgb(202, 233, 255);
+    border-radius: 5px;
+    width: 50%;
+    padding: 20px;
+}
+
+form .inside{margin: 10px;}
+
+.title{
+    color: rgb(27, 73, 101,1 );
+    text-decoration:underline;
+}
+
+table{margin: 10px;}
+
+table, th , td {border: solid 2px #000;}
+
+table, tr, td, th{padding: 10px;}
+
+form .inside label{font-weight: 600;}
+
+.titulos{background-color: rgb(27, 73, 101,1 ); color: #fff;}
+
+.btn{
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: rgb(98, 182, 203, .5);
+    transition: .3s all;
+}
+
+.btn:hover{background-color: rgb(98, 182, 203, 1); transition: .3s all;}
+
+.fila1{background-color: rgb(95, 168, 211, 0.5); transition: .3s all;} 
+
+.fila2{ background-color: rgb(98, 182, 203, 0.5); transition: .3s all;}
+
+.fila1:hover{background-color: rgb(95, 168, 211, 1) ; transition: .3s all}
+
+.fila2:hover{background-color: rgb(98, 182, 203, 1); transition: .3s all;}

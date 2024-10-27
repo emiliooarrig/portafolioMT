@@ -1,0 +1,97 @@
+ 
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*Estilos CSS para la portda e informacion personal*/
+.portada{background-color: #E5E5E5; padding: 20px;}
+
+.informacion{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.interior{margin: 15px;}
+
+.int-info{
+    font-size: 1em; 
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.int-info p{margin: 10px; font-size: 20px;}
+
+.btn{
+    padding: 10px;
+    border: 2px solid #FCA311;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FCA311;
+    transition: .3s ease;
+}
+
+.btn:hover{
+    background-color: #f5cb5c;
+    transition: .3s ease;
+}
+
+.div-imagen{
+    display: flex;
+    justify-content: center;
+}
+
+.div-imagen .imagen{
+    width: 300px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.subrayado{
+    text-decoration: underline; 
+    font-weight: 500;
+    color: #FCA311;
+}
+
+/*Estilos CSS para los trabajos*/
+.contenedor-trabajos{text-align: center; margin-top: 10px;}
+.contenedor-trabajos h1{margin: 15px 0;}
+
+.trabajos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.trabajos .imagen-trabajos{
+    width: 300px;
+}
+
+.trabajos a{
+    border: solid 2px #E5E5E5;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: .5s ease-in-out;
+}
+
+.trabajos a:hover{
+    border: 2px solid #343a40;
+    transition: .5s ease-in-out;
+}
+
+
+
+
+
+
+
+

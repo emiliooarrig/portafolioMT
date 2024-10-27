@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title> Factorial Cíclico </title>
+</head>
+
+<body>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Montserrat;
+        }
+
+        .contenedor {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .contenedor h1, input, button, p{
+            margin: 10px;
+        }
+
+    </style>
+
+
+    <div class="contenedor">
+        <h1> Inserte un numero para calcular su factorial </h1>
+        <input type="number" id="input">
+        <button onclick="Factorial()"> Calcula </button>
+        <p id="resultado"> </p>
+    </div>
+
+    <script src="ciclico.js"></script>
+</body>
+
+</html>

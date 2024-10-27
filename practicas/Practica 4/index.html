@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title> Inicio </title>
+</head>
+<body>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Montserrat;
+        }
+
+        .inside {
+            background-color: rgb(219, 173, 106, 0.5);
+            width: fit-content;
+            height: auto;
+            border-radius: 5px;
+            padding: 20px;
+            display: grid;
+            place-content: center;
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 20px;
+            margin: 5px;
+            background-color: rgb(207, 153, 95);
+            border-radius: 5px;
+            display: inline-block;
+
+        }
+
+        li:hover {
+            background-color: rgb(207, 153, 95, 0.5);
+            transition: .3s linear;
+        }
+
+        .link {
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: .3s linear;
+            color: #000;
+            font-size: 20px;
+        }
+
+        .contenedor {
+            width: 100%;
+            height: 900px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+
+    <div class="contenedor">
+        <h1> Practica 4: Javascript 1</h1>
+        <p> Emilio Arriaga Guzmán </p>
+        <p> 8 de Septiembre del 2024 </p>
+        <div class="inside">
+            <ul>
+                <li><a href="calificaciones/calificaciones.html" class="link"> Calificaciones </a></li>
+                <li><a href="factorial/factorial.html" class="link"> Factorial </a></li>
+                <li><a href="formulario/forms.html" class="link"> Formulario de datos </a></li>
+            </ul>
+        </div>
+
+    
+</body>
+</html>

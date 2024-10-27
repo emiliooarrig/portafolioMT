@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title> Calificaciones </title>
+</head>
+<body>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Montserrat;
+        }
+
+        .contenedor{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .contenedor h1{
+            margin: 10px;
+            font-weight: 600;
+        }
+        .contenedor input{
+            margin: 10px;
+        }
+    </style>
+
+
+    <div class="contenedor">
+        
+        <h1> Inserte su calificacion: </h1>
+        <input type="number" name="" id="entrada" required>
+        <button onclick="calificar()"> Calificar </button>
+        <h1 id="resultado"></h1>
+        
+    </div>
+    
+    <script src="calificaciones.js"></script>
+</body>
+</html>

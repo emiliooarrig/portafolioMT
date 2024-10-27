@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #14213D; /* Fondo de la barra de navegación */
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+.navbar a {
+    color: #FFFFFF; /* Color de texto de los enlaces */
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.navbar a:hover {
+    background-color: #FCA311; /* Fondo al pasar el ratón */
+    color: #000000; /* Color del texto al hacer hover */
+}
+
+
