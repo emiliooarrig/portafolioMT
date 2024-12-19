@@ -88,6 +88,119 @@
     transition: .5s ease-in-out;
 }
 
+/*Estilos para el apartado de tecnologias*/
+/* .contenedor-tecnologias{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+
+.tecnologias {
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f9;
+}
+
+.tecnologias h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo de contenedor interior */
+.tecnologia-interior {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Estilo para apartados */
+.apartado-tecnologia {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.apartado-tecnologia:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.apartado-tecnologia h4 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Lista de tecnologías */
+.lista-tecnologia {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.item-tecnologia {
+    text-align: center;
+    flex: 1 1 40%;
+    max-width: 100px;
+}
+
+.item-tecnologia img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.item-tecnologia p {
+    font-size: 0.9rem;
+    margin: 0;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .tecnologia-interior {
+        /* flex-direction: column; */
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .informacion{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .contenedor-trabajos h1{
+        font-size: 1.5rem;
+    }
+
+    .trabajos{
+        flex-direction: column;
+    }
+    .tecnologias h1 {
+        font-size: 1.5rem;
+    }
+
+    .item-tecnologia img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .item-tecnologia p {
+        font-size: 0.8rem;
+    }
+}
 
 
 
